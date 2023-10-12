@@ -22,7 +22,7 @@
 console.log(stringSplosion('Code'))*/
 
 
-function getFirstChars(str, n) {
+/*function getFirstChars(str, n) {
   let result = ''
 
   result = str.substring(0, n)    //a 0. indexen levo char-ral kezd es az n. indexen levo char mar nem lesz benne
@@ -74,7 +74,7 @@ for (let i = 0; i < textArray.length; i++) {
 
 console.log(textArray.join(''))*/
 
-Math.random()
+/*Math.random()
 
 const numberInString = '12.7'
 
@@ -84,10 +84,10 @@ const float = parseFloat(numberInString)    //a tizedesszaot is vissza tudja adn
 console.log(number)
 console.log(float)
 
-let arr = ['egy', 'ketto', 'harom']
+let arr = ['egy', 'ketto', 'harom']*/
 
 //arr.push('negy')
-arr.push('negy', 'ot', 'hat', 'het')
+/*arr.push('negy', 'ot', 'hat', 'het')
 
 console.log(arr)
 
@@ -111,14 +111,47 @@ let obj = {
   favoriteDrink: 'hot chocolate'
 }
 
-let objKeys = Object.keys(obj)
+let objKeys = Object.keys(obj)*/
 
 /*for (let i = 0; i < objKeys.length; i++) {
   console.log(objKeys[i])   //kulcs neve
   console.log(obj[objKeys[i]])  //kulcs erteke
 }*/
 
-for (const key of Obj.keys(obj)) {  //ugyanazt csinalja, mint a fenti for loop, vegigiteral egy objektumon, megvizsgalja az osszes kulcs erteket
+/*for (const key of Obj.keys(obj)) {  //ugyanazt csinalja, mint a fenti for loop, vegigiteral egy objektumon, megvizsgalja az osszes kulcs erteket
   console.log(key)
   console.log(obj[key])   //inkabb bracket notation-t hasznaljunk, a dot notation helyett
-}
+}*/
+
+
+const arr = ['kutya', 'cica', 'meresi hiba']
+
+/*for (let i = 0; i < arr.length; i++) {    //ugyanazt csinalja mint a kov. 3
+  console.log(arr[i])
+}*/
+
+/*for (const element of arr) {  //ugyanazt csinalja mint az elobbi for loop
+  console.log(element)
+}*/
+
+/*arr.forEach(function(element) {   //ugyanazt csinalja, mint az elozo for...of loop
+  console.log(element)
+})*/
+
+//arr.forEach(function(element) => console.log(element))    //ugyanazt csinalja mint az elozo 3
+
+/*const newNumbers = []
+
+numbers.forEach(function (number) {   //atnezni, hianyos!!!
+  let newNumber = number * 2
+  console.log(newNumber)
+  newNumbers.push(newNumber)
+})
+
+console.log(newNumbers)*/
+
+const mapResult = numbers.map((number) => number * 2)
+
+console.log(numbers)
+console.log(mapResult)
+
